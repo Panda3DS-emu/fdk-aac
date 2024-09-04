@@ -61,7 +61,7 @@ include(CPack)
 
 # Options
 
-option(BUILD_SHARED_LIBS "Build shared library" ON)
+option(BUILD_SHARED_LIBS "Build shared library" OFF)
 option(BUILD_PROGRAMS "Build extra utilities" OFF)
 option(FDK_AAC_INSTALL_CMAKE_CONFIG_MODULE "Install CMake package configuration file" ON)
 option(FDK_AAC_INSTALL_PKGCONFIG_MODULE "Install pkg-config .pc file" ON)
